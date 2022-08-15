@@ -1,0 +1,23 @@
+.informacion{
+    background: #EAF2FD;
+    display: flex;
+    justify-content:space-around ;
+    height: 239px;
+    padding: 64px;
+}
+.informacionLogo{   
+    margin-top: 1rem;
+    width: 168px;
+    height: 50px;
+}
+.informacionLista{
+    margin-top: 1rem;
+}
+.informacionItem{
+    text-decoration: none;
+    color: #464646;
+    padding: 3rem;
+}
+.informacionListaItem{
+    padding: .6rem 0;
+}

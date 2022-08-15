@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-Login</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/header/header.css">
+    <link rel="stylesheet" href="../css/informacion/informacion.css">
+    <link rel="stylesheet" href="../css/inicioSesion/inicioSesion.css">
+    <link rel="stylesheet" href="../css/informacion/form/form.css">
+    <link rel="stylesheet" href="../css/footer/footer.css">
+    <link rel="stylesheet" href="../css/agregarProducto/agregarProducto.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logoYBuscador">
+        <a href="../../index.html"><img class="logo" src="../img/Logo.png" alt="Logo"></a>
+        <label for="buscador"></label>
+        <input name="buscador" id="buscador"type="text" placeholder="¿Qué deseas buscar?">
+        </div>
+        <a href="#"><button class="btnLogin" type="button">Menú Administrador</button></a>
+    </header>
+
+    <section class="agregarProducto">
+        <div class="containerForm">
+        <form class="formAgregarProducto">
+            <h2 class="agregarProcucto-title">Agregar nuevo producto</h2>
+            <div class="form-group-agregarProducto">
+                <input name="url" id="url"class="inputFormAgregarProducto" type="text" >
+                <label class="labelFormAgregarProducto" for="url">URL de imagen</label>
+            </div>
+            <div class="form-group-agregarProducto">
+                <input name="categoria" id="categoria"class="inputFormAgregarProducto" type="text" >
+                <label class="labelFormAgregarProducto" for="categoria">Categoría</label>
+            </div>
+            <div class="form-group-agregarProducto">
+                <input name="nombre" id="nombre" class="inputFormAgregarProducto" type="text">
+                <label class="labelFormAgregarProducto" for="nombre">Nombre de producto</label>
+            </div>
+            <div class="form-group-agregarProducto">
+                <input name="precio" id="precio" class="inputFormAgregarProducto" type="number">
+                <label class="labelFormAgregarProducto" for="precio">Precio del producto</label>
+            </div>
+            <div class="form-group-agregarProducto">
+                <input name="descripcion" id="descripcion" class="inputFormAgregarProducto" type="text">
+                <label class="labelFormAgregarProducto" for="descripcion">Descripcion del producto</label>
+            </div>
+            <button class="btnForm" type="submit">Agregar Producto</button>
+        </form>
+        </div>
+    </section>
+
+    <section class="informacion">
+        <img class="informacionLogo" src="../img/Logo.png" alt="Logo">
+        <ul class="informacionLista">
+            <li class="informacionListaItem"><a class="informacionItem" href="#">Quienes somos</a></li>
+            <li class="informacionListaItem"><a class="informacionItem" href="#">Politica de privacidad</a></li>
+            <li class="informacionListaItem"><a class="informacionItem" href="#">Programa de fidelidad</a></li>
+            <li class="informacionListaItem"><a class="informacionItem" href="#">Nuestas tiendas</a></li>
+            <li class="informacionListaItem"><a class="informacionItem" href="#">Quiero ser franquiciado</a></li>
+            <li class="informacionListaItem"><a class="informacionItem" href="#">Anuncie aqui</a></li>
+        </ul>
+        <form class="informacion-form">
+            <h2 class="form-h2">Hable con nosotros</h2>
+            <div class="form-group">
+                <input class="inputFormInformacion" name="nombre" id="inputNombre" type="text">
+                <label class="labelFormInformacion" for="nombre">Nombre</label>
+            </div>
+            <div class="form-group">
+                <input class="inputFormInformacion" id="inputMensaje" name="mensaje" id="form-mensaje"></input>
+                <label class="labelFormInformacion" for="mensaje">Mensaje</label>
+            </div>
+            <button class="btnFormInformacion" type="submit">Enviar mensaje</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Hecho por Luis Tang</p>
+        <a href="https://www.linkedin.com/in/luis-daniel-tang-rengifo-9509b8219/"><img src="../img/footer/logoLinkedin.png" alt="LogoLinkedin"></a>
+        <a href="https://github.com/luistang11"><img src="../img/footer/GitHub_logo.png" alt="logoGitHub"></a>
+    </footer>
+</body>
+</html>

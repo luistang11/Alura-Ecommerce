@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.logo{
+    width: 176px;
+    height: 50px;
+    margin-left: 5%;
+}
+#buscador{
+    border-radius: 20px;
+    width: 393px;
+    margin-left: 2rem;
+    border: none;
+    background: #F5F5F5;
+}
+.logoYBuscador{
+    display: flex;
+}
+.btnLogin{
+    width: 182px;
+    height: 50px;
+    background-color: transparent;
+    color: #2A7AE4;
+    border: #2A7AE4 1px solid;
+    cursor: pointer;
+    margin-right: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+    #buscador{
+        width: 272px;
+    }
+}

@@ -1,0 +1,35 @@
+.inicioSesion{
+    background-color:  #f4f5f4;
+    padding: 4rem;
+    text-align: center;
+    height: 100%;
+}
+.login-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.formInicioSesion{
+    margin: 180px auto;
+    width: 423px;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+    background-color: #fff;
+}
+.inputForm{
+    display: block;
+    margin: 1rem auto;
+    padding: .8rem;
+    width: 100%;
+    border: 1px solid black;
+    
+}
+.btnForm{
+    background-color: #2A7AE4;
+    padding: 16px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 107% ;
+}
