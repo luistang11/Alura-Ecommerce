@@ -1,0 +1,40 @@
+.containerProductos{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 200px);
+    margin: 30px auto;
+}
+.productos-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.productos-alineacion{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: calc(100% - 200px);;
+}
+.productos-title{
+    font-size: 32px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 100px;
+}
+.productos-vermas{
+margin-right: 100px;
+}
+
+.productos-imagen{
+    width: 176px;
+}
+.verProducto, .productos-vermas{
+    font-weight: 700;
+    font-size: 16px;
+    font-family: Raleway;
+    text-decoration: none;
+    color: #2A7AE4;
+}
+.producto-nombre, .producto-precio, .verProducto{
+    margin: .4rem;
+}
